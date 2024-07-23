@@ -1,0 +1,8 @@
+:root {
+    --font-fam:'Asap', sans-serif;
+}
+
+
+html {
+    font-family: var(--font-fam);
+}
