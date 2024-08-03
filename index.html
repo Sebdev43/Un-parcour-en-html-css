@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="author" content="Sebdev43" >
+    <meta name="description" content="Découvrez le projet HTML et CSS sur les 12 Travaux d'Hercule, conçu pour évaluer les compétences en front-end." >
+    <meta name="keywords" content="Les 12 travaux d'Hercule, UX/UI, HTML, CSS, Front-End, Projet Web" >
+    <title>Les 12 Travaux d'Hercule - Projet de Test HTML et CSS</title>
+    <link rel="icon" href="./img/hercule.webp">
+    <link rel="stylesheet" href="./css/base/reset.css" >
+    <link rel="stylesheet" href="./css/font/font.css" >
+    <link rel="stylesheet" href="./css/base/variables.css" >
+    <link rel="stylesheet" href="./css/utils/keyframes.css" >
+    <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="stylesheet" href="./css/fonts.css" >
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Les 12 Travaux d'Hercule",
+      "description": "Découvrez le projet HTML et CSS sur les 12 Travaux d'Hercule, conçu pour évaluer les compétences en front-end."
+    }
+    </script>
+</head>
+<body>
+    <section class="container">
+        <header class="header">
+            <form class="search" >
+                <input class="search-input" placeholder="Rechercher" aria-label="Search" >
+            </form>
+            <nav class="nav" aria-label="Navigation principale">
+                <h2 class="title">Navigation</h2>
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a class="nav-item-link" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item-link" href="#">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page">
+          
+            <article class="content">
+                <section class="content-focus">
+                    <section class="content-titles">
+                        <h1 class="content-title content-title--main">
+                            Les 12 travaux d'Hercule
+                        </h1>
+                        <h2 class="content-title content-title--sub">
+                            Tout savoir sur les exploits d'un simple mortel.
+                        </h2>
+                    </section>
+                    <figure class="content-picture rounded">
+                        <img loading="lazy" class="picture" src="./img/taureau.webp" alt="Le taureau crétois de Minos" >
+                        <figcaption class="picture-desc">
+                            Le taureau crétois de Minos
+                        </figcaption>
+                    </figure>
+                </section>
+                <p>
+                    Commençons par découvrir ce que nous dit Wikipédia à propos des 12 travaux.
+                </p>
+                <blockquote class="content-quote" cite="https://fr.wikipedia.org/wiki/Travaux_d%27H%C3%A9racl%C3%A8s">
+                    <h3>Mythe</h3>
+                    <p>
+                        Fils de Zeus et d’Alcmène, Héraclès est poursuivi depuis sa naissance par la haine d'Héra...
+                    </p>
+                    <h3>Liste des travaux</h3>
+                    <ol>
+                        <li>Étouffer le lion de Némée à la peau impénétrable, et rapporter sa dépouille.</li>
+                        <li>Tuer l'hydre de Lerne, dont les têtes tranchées repoussaient sans cesse.</li>
+                        <li>Capturer la biche de Cérynie aux sabots d'airain et aux bois d'or, créature sacrée d'Artémis.</li>
+                        <li>Ramener vivant l'énorme sanglier d'Érymanthe.</li>
+                        <li>Nettoyer les écuries d'Augias, qui ne l'avaient jamais été, car elles étaient si grandes...</li>
+                        <li>Tuer les oiseaux du lac Stymphale aux plumes d'airain.</li>
+                        <li>Dompter le taureau crétois de Minos, que celui-ci n'avait pas voulu sacrifier à Poséidon.</li>
+                        <li>Capturer les cavales de Diomède (juments mangeuses d'hommes).</li>
+                        <li>Rapporter la ceinture d'Hippolyte, fille d'Arès et reine des Amazones.</li>
+                        <li>Vaincre le géant aux trois corps Géryon, et voler son troupeau de bœufs.</li>
+                        <li>Rapporter les pommes d'or du jardin des Hespérides, que gardait Ladon.</li>
+                        <li>Descendre aux Enfers et enchaîner Cerbère, le chien aux trois têtes...</li>
+                    </ol>
+                </blockquote>
+            </article>
+            <section class="articles">
+                <header>
+                    <h2 class="title">Ses premiers travaux</h2>
+                </header>
+                <section class="articles-container">
+                    <article class="card">
+                        <header class="card-header">
+                            <img class="picture rounded" src="./img/lion.webp" alt="Le lion de Némée" loading="lazy"  >
+                            <h3 class="card-title">Le lion de Némée</h3>
+                        </header>
+                        <section class="card-content">
+                            <p>
+                                Étouffer le lion de Némée à la peau impénétrable, et rapporter sa dépouille.
+                            </p>
+                        </section>
+                        <footer class="card-footer">
+                            <a class="btn" href="#">Lire la suite</a>
+                            <a class="btn" href="#">J'aime</a>
+                        </footer>
+                    </article>
+                    <article class="card">
+                        <header>
+                            <img class="picture rounded" src="./img/hydre.webp" alt="L'hydre de Lerne" loading="lazy" >
+                            <h3 class="card-title">L'hydre de Lerne</h3>
+                        </header>
+                        <section class="card-content">
+                            <p>
+                                Tuer l'hydre de Lerne, dont les têtes tranchées repoussaient sans cesse.
+                            </p>
+                        </section>
+                        <footer class="card-footer">
+                            <a class="btn" href="#">Lire la suite</a>
+                            <a class="btn" href="#">J'aime</a>
+                        </footer>
+                    </article>
+                    <article class="card">
+                        <header>
+                            <img class="picture rounded" src="./img/biche.webp" alt="La biche de Cérynie" loading="lazy" >
+                            <h3 class="card-title">La biche de Cérynie</h3>
+                        </header>
+                        <section class="card-content">
+                            <p>
+                                Capturer la biche de Cérynie aux sabots d'airain et aux bois d'or, créature sacrée d'Artémis.
+                            </p>
+                        </section>
+                        <footer class="card-footer">
+                            <a class="btn" href="#">Lire la suite</a>
+                            <a class="btn" href="#">J'aime</a>
+                        </footer>
+                    </article>
+                  <article class="card">
+                      <header>
+                          <img class="picture rounded" src="./img/sanglier.webp" alt="Le sanglier d'Érymanthe" loading="lazy" >
+                          <h3 class="card-title">Le sanglier d'Érymanthe</h3>
+                      </header>
+                      <section class="card-content">
+                          <p>Ramener vivant l'énorme sanglier d'Érymanthe.</p>
+                      </section>
+                      <footer class="card-footer">
+                          <a class="btn" href="#">Lire la suite</a>
+                          <a class="btn" href="#">J'aime</a>
+                      </footer>
+                  </article>
+                  <article class="card">
+                      <header>
+                          <img class="picture rounded" src="./img/ecuries.webp" alt="Les écuries d'Augias" loading="lazy" >
+                          <h3 class="card-title">Les écuries d'Augias</h3>
+                      </header>
+                      <section class="card-content">
+                          <p>Nettoyer les écuries d'Augias, qui ne l'avaient jamais été, car elles étaient si grandes que personne n'avait jamais eu le courage de le faire.</p>
+                      </section>
+                      <footer class="card-footer">
+                          <a class="btn" href="#">Lire la suite</a>
+                          <a class="btn" href="#">J'aime</a>
+                      </footer>
+                  </article>
+                  <article class="card">
+                      <header>
+                          <img class="picture rounded" src="./img/oiseaux.webp" alt="Les oiseaux du lac Stymphale" loading="lazy" >
+                          <h3 class="card-title">Les oiseaux du lac Stymphale</h3>
+                      </header>
+                      <section class="card-content">
+                          <p>Tuer les oiseaux du lac Stymphale aux plumes d'airain.</p>
+                      </section>
+                      <footer class="card-footer">
+                          <a class="btn" href="#">Lire la suite</a>
+                          <a class="btn" href="#">J'aime</a>
+                      </footer>
+                  </article>
+              </section>
+          </section>
+      </main>
+      <footer class="footer">
+          <p>2019 &copy; Tous droits réservés</p>
+      </footer>
+  </section>
+</body>
+</html>

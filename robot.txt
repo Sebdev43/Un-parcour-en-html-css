@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+Allow: /css/styles.css
+Allow: /img/taureau.webp
+Allow: /img/lion.webp
+Allow: /img/hydre.webp
+Allow: /img/biche.webp
+Allow: /img/sanglier.webp
+Allow: /img/ecuries.webp
+Allow: /img/oiseaux.webp
+
+Sitemap: https://12travel.com/sitemap.xml

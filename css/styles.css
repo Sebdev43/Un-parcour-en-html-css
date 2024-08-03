@@ -54,7 +54,10 @@ body {
   padding: 2rem;
   height: 100%;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .nav-links {
   margin-top: 2rem;
   height: 100%;
@@ -232,6 +235,20 @@ body {
   text-align: center;
   color: #aaa;
 }
+
+h2.content-title.content-title--sub {
+  color: #112a46; 
+}
+
+div.container {
+  background-color: #acc8e5; 
+}
+
+a.btn {
+  color: #ffffff; 
+  background-color: #112a46; 
+}
+
 /*-----------------------------REPONSIVE-(max 1200px---------------------------------*/
 @media (max-width: 1200px) {
   .content-focus {

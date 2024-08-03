@@ -1,0 +1,22 @@
+{
+  "name": "un-parcour-en-html-css",
+  "version": "1.0.0",
+  "description": "Bienvenue dans ce projet de test en HTML et CSS, le tout premier exercice que j'ai réalisé au sein de l'école O'clock. Ce projet est conservé à titre historique pour marquer le point de départ de ma formation en développement web. Il avait pour but d'évaluer et de renforcer mes compétences en front-end à travers des exercices pratiques inspirés par le mythe des 12 Travaux d'Hercule.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.3.5"
+  },
+  "devDependencies": {
+    "rollup-plugin-visualizer": "^5.12.0",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
